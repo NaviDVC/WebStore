@@ -1,0 +1,47 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.left__block {
+    width: 33%;
+    background-color: yellowgreen;
+}
+
+.left__block ul li p {
+    margin: 5px auto;
+}
+
+.left__block ul li p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.middle__block {
+    width: 33%;
+    background-color: blueviolet;
+}
+
+.middle__cars-list {
+    display: none;
+}
+
+.middle__phones-list {
+    display: none;
+}
+
+.middle__companies-list {
+    display: none;
+}
+
+.right__block {
+    width: 33%;
+    background-color: aqua;
+}
