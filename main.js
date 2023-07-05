@@ -6,7 +6,6 @@ let bmw = document.querySelector('.right__bmw');
 let ford = document.querySelector('.right__ford');
 let iphone = document.querySelector('.right__iphone');
 let nokia = document.querySelector('.right__nokia');
-let button = document.querySelectorAll('button')
 
 function cars() {
   carsList.style.display = 'block';
@@ -69,4 +68,4 @@ document.addEventListener('click', (event) => {
         window.message = alert(`You bought ${name}!`)
         location.reload()
     }
-})
+});
