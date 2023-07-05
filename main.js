@@ -1,7 +1,4 @@
 let choice = document.querySelectorAll('.item');
-let categoriesBlock = document.querySelector('.left__block');
-let itemsBlock = document.querySelector('.middle__block');
-let buyBlock = document.querySelector('.right__block');
 let carsList = document.querySelector('.middle__cars-list');
 let phonesList = document.querySelector('.middle__phones-list');
 let buyButton = document.querySelectorAll('.middle__choose-item');
@@ -9,6 +6,7 @@ let bmw = document.querySelector('.right__bmw');
 let ford = document.querySelector('.right__ford');
 let iphone = document.querySelector('.right__iphone');
 let nokia = document.querySelector('.right__nokia');
+let button = document.querySelectorAll('button')
 
 function cars() {
   carsList.style.display = 'block';
@@ -52,10 +50,6 @@ function nokiaPhone() {
     iphone.style.display = 'none';
     nokia.style.display = 'block';
     window.name = 'Nokia 3310 0MB';
-}
-
-function resetWebsite() {
-    return categoriesBlock;
 }
 
 choice[0].addEventListener('click', cars);
